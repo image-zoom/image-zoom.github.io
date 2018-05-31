@@ -1,5 +1,5 @@
 html, body {
-	height: 100%;
+	/*height: 100%;*/
 	margin: 0;
 	padding: 0;
 }
@@ -129,20 +129,21 @@ td {
 }
 
 .container {
-	width: 425px;
-	margin: 0 auto;
-	padding: 2em 2em 4em;
-	background: #fff;
-	box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+	width: 478px;
+	height: 100%;
+	/*margin: 0 auto;*/
+	/*padding: 2em 2em 4em;*/
+	/*background: #fff;*/
+	/*box-shadow: 0 0 5em rgba(0, 0, 0, .1);*/
 	/*start of edits*/
-	background-image: url("../example-images/bg-new.png");
-	background-repeat: no-repeat;
-	height:100%;
-	padding-top: 290px;
+	background: url("../example-images/bg-long.png") no-repeat;
+	background-size: 100% 2546px;
+	/*padding-top: 290px;*/
 }
 
 .easyzoom {
-	padding-left: 36px;
+	margin-top: 510px;
+    margin-left: 58px;
 }
 .thumbnails li {
 	width: 90px !important;
